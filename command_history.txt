@@ -1,0 +1,31 @@
+    1  mkdir HW
+    2  cd HW
+    3  cat > Pets.txt
+    4  cat > 'Pack animals.txt'
+    5  cat Pets.txt 'Pack animals.txt' > combined.txt
+    6  cat combined.txt
+    7  cat > Pets.txt
+    8  cat > 'Pack animals.txt'
+    9  cat Pets.txt 'Pack animals.txt' > combined.txt
+   10  cat combined.txt
+   11  help
+   12  mv combined.txt 'Human Friends.txt'
+   13  ls
+   14  mkdir NewDir
+   15  mv 'Human Friends.txt' NewDir/ 
+   16  ls
+   17  tree
+   18  sudo apt install tree
+   19  tree
+   20  wget https://dev.mysql.com/get/mysql-apt-config_0.8.28-1_all.deb
+   21  sudo dpkg -i mysql-apt-config_0.8.28-1_all.deb
+   22  sudo apt-get update
+   23  sudo apt install mysql-server
+   24  systemctl status mysql
+   25  wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mc/mc_4.8.29-2_amd64.deb
+   26  sudo dpkg -i mc_4.8.29-2_amd64.deb
+   27  sudo apt install -f
+   28  mc
+   29  sudo dpkg -r mc
+   30  history
+   31  history > command_history.txt
